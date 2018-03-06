@@ -1,0 +1,12 @@
+1. Generate jar file, named as "SON_Algorithm.jar"
+2. Enter the spark/bin folder in your computer
+2. Put the SON_Algorithm.jar file and all the “.csv” datafile (small2, beauty, books) into spark/bin
+   directory.
+3. Run in command line:
+    Format: spark-submit --class <Class Name> <Jar File Name> <Case Number> <Data File Name> <Support>
+    small2 case 1:
+    spark-submit --class SONAlgorithm SON_Algorithm.jar 1 small2.csv 3
+    small2 case 2:
+    spark-submit --class SONAlgorithm SON_Algorithm.jar 2 small2.csv 5
+
+4. The output files will be in the same directory 
